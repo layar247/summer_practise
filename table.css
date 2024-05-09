@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.maincontent {
+    padding: 20px;
+}
+
+header {
+    background-color: #007bff; /* Зеленый цвет */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none; /* Убираем подчеркивание */
+    transition: background-color 0.3s; /* Анимация при наведении */
+}
+
+header a:hover {
+    background-color: #175699; /* Цвет фона при наведении */
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
